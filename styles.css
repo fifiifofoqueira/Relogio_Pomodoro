@@ -1,0 +1,107 @@
+body {
+  
+  background-color: #FFF3D9;
+opacity: 0.8;
+background-image:
+  repeating-linear-gradient(to right,
+    transparent 0,
+    transparent 1.6666666666666667px,
+    #FFF3D9 1.6666666666666667px,
+    #FFF3D9 5px,
+    transparent 5px,
+    transparent 6.666666666666667px
+  ),
+  repeating-linear-gradient(to bottom,
+    transparent 0,
+    transparent 1.6666666666666667px,
+    #FFF3D9 1.6666666666666667px,
+    #FFF3D9 5px,
+    transparent 5px,
+    transparent 6.666666666666667px
+  ),
+  linear-gradient(to bottom, #E9B66F 0.6px, transparent 0.6px),
+  linear-gradient(to right, #E9B66F 0.6px, transparent 0.6px);
+
+background-size: 100% 100%, 100% 100%, 20px 20px, 20px 20px;
+background-position: 0 0, 0 0, 0 -0.2px, -0.2px 0;
+
+  margin: 0;
+  height: 100vh;           
+  display: flex;
+  justify-content: center; /* Mantém a caixa bisque centralizada na tela horizontalmente */
+  align-items: center;     /* Mantém a caixa bisque centralizada na tela verticalmente */
+}
+
+#Tela {
+  background-color: bisque;
+  width: 80vw;
+  height: 80vh;
+  box-sizing: border-box; /* Impede que o padding quebre o tamanho da caixa */
+  
+  /* Configuração para o conteúdo interno: */
+  display: flex;
+  flex-direction: column;    /* Coloca o H1 e o Botão um embaixo do outro */
+  align-items: center;       /* Centraliza horizontalmente o H1 e o Botão */
+  justify-content: flex-start; /* Alinha o conteúdo no topo da caixa bisque */
+  padding-top: 15vh;         /* Afasta o conteúdo do topo exatamente na altura que você quer */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button {
+  padding: 15px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-color: #dda377;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: #dda377 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #E8A16B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  }
+
+
+
+
+
+  button:hover {
+    transform: scale(1.1);
+  }
+
+  button:active{
+    transform: scale(0.95);
+  }
